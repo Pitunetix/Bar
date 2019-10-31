@@ -1,0 +1,26 @@
+#comidas{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: antiquewhite;
+    text-align: center;
+    -webkit-box-shadow: 9px 8px 10px -2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 9px 8px 10px -2px rgba(0, 0, 0, 0.75);
+    box-shadow: 9px 8px 10px -2px rgba(0, 0, 0, 0.75);
+
+}
+
+#titulo{
+    font-family: 'Pacifico', cursive;
+    font-size: 140%;
+}
+
+#menu{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#servicio{
+    text-align: left;
+    font-family: 'Bitter', serif;
+    font-size: 91%;
+}

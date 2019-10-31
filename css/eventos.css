@@ -1,0 +1,45 @@
+#eventos {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: antiquewhite;
+    text-align: center;
+    -webkit-box-shadow: 9px 8px 10px -2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 9px 8px 10px -2px rgba(0, 0, 0, 0.75);
+    box-shadow: 9px 8px 10px -2px rgba(0, 0, 0, 0.75);
+
+}
+
+#titulo {
+    font-family: 'Pacifico', cursive;
+    font-size: 140%;
+}
+
+#fiesta {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+
+#eve {
+    display: table-cell;
+}
+
+.text {
+    font-family: 'Courgette', cursive;
+    font-size: 190%;
+}
+
+.hr {
+    margin-left: auto;
+    height: 2px;
+    width: 45%;
+    background-color: red;
+}
+
+p{
+    font-family: 'Bitter', serif;
+}

@@ -1,0 +1,120 @@
+body {
+
+    background-image: url(../img/fondo1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: black;
+    */
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width:
+}
+
+div {
+    margin-bottom: 0% !important;
+    border-style: ;
+    border-width: 2px;
+}
+
+hr {
+   background-color: white;
+    width: 75%;
+    margin-left: 2%;
+    
+}
+
+ul {
+    margin-right: 9%;
+    list-style-type: none;
+    font-size: 95%;
+    font-family: "Open Sans", sans-serif, cursive;
+}
+
+.navbar {
+
+    background-color: #4d1967;
+    font-family: 'Bree Serif', serif;
+}
+
+.btn {
+    color: white;
+    background-color: #ff6347;
+    border-radius: 2%;
+    font-size: 90%;
+}
+
+.fondo {
+    -webkit-box-shadow: 9px 8px 10px -2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 9px 8px 10px -2px rgba(0, 0, 0, 0.75);
+    box-shadow: 9px 8px 10px -2px rgba(0, 0, 0, 0.75);
+}
+
+#redes {
+    -webkit-box-shadow: 9px 8px 10px -2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 9px 8px 10px -2px rgba(0, 0, 0, 0.75);
+    box-shadow: 9px 8px 10px -2px rgba(0, 0, 0, 0.75);
+    color: black;
+    padding: 1%;
+    text-align: center;
+    align-content: center;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    font-family: 'Pacifico', cursive;
+    font-size: 140%;
+}
+
+.item {
+    font-size: 95%;
+
+}
+
+#info {
+    -webkit-box-shadow: 9px 8px 10px -2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 9px 8px 10px -2px rgba(0, 0, 0, 0.75);
+    box-shadow: 9px 8px 10px -2px rgba(0, 0, 0, 0.75);
+    color: black;
+    background-color: #4d1967;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mapa {
+    padding: 1%;
+}
+
+#detalles {
+    padding: 1%;
+    color: white;
+}
+
+.texto {
+    margin-left: 2%;
+    font-family: 'Courgette', cursive;
+    font-size: 140%;
+}
+
+#copy {
+    padding: 2%;
+}
+
+.footer {
+    -webkit-box-shadow: 9px 8px 10px -2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 9px 8px 10px -2px rgba(0, 0, 0, 0.75);
+    box-shadow: 9px 8px 10px -2px rgba(0, 0, 0, 0.75);
+    padding: 2%;
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
