@@ -126,3 +126,7 @@ ul {
     color: white!important;    
 
 }
+
+.nav-link:hover{
+    color: red !important;
+}
