@@ -130,3 +130,39 @@ ul {
 .nav-link:hover{
     color: red !important;
 }
+
+/*********** POP UP **************/
+
+#aviso{
+    margin-top: -6%;
+}
+
+.modal-header{
+    height: 10%;
+    background: #672688;
+    color: white;
+    text-align: center !important;
+}
+
+.modal-header .close{
+    color: white;
+}
+
+h5.modal-title{
+    font-size: 180%;
+    margin-left: 40%;
+}
+
+@media (max-width: 800px){
+    
+    .modal{
+        width: 80%;
+        margin-top: 5%;
+        margin-left: 10%;
+    }
+
+    h5.modal-title{
+        font-size: 180%;
+        margin-left: 20%;
+    }
+}
