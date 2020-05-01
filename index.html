@@ -6,7 +6,8 @@
     <title>Document</title>
 
     <meta name="viewport" content="width=device-width, user-scalable=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- FUENTES-->
     <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
@@ -18,11 +19,38 @@
 
 <body>
 
+    <!-- Modal -->
+    <div class="modal fade" id="aviso" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">¡¡Aviso!!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Lamentablemente Doña pichona cerro sus puertas antes que el sitio web pudiera ser publicado =(
+                        <br>
+                        De todos modos, te invito a mirar hasta donde llegue a desarrollar.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
                 <nav class="navbar navbar-dark navbar-expand-md">
-                    <button class="navbar-toggler justify-content-end" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler justify-content-end" type="button" data-toggle="collapse"
+                        data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                        aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
@@ -75,7 +103,9 @@
         </div>
         <div class="row" id="info">
             <div class="col-sm-12 col-md-6" id="mapa">
-                <p class="grey-text text-lighten-4"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13648.724958075156!2d-64.3493363313373!3d-31.215707791727617!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4cbd4917d332b6a5!2sDo%C3%B1a+Pichona!5e0!3m2!1ses!2sar!4v1553909881027!5m2!1ses!2sar" width="100%" height="250px" frameborder="0" style="border:0" allowfullscreen></iframe></p>
+                <p class="grey-text text-lighten-4"><iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13648.724958075156!2d-64.3493363313373!3d-31.215707791727617!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4cbd4917d332b6a5!2sDo%C3%B1a+Pichona!5e0!3m2!1ses!2sar!4v1553909881027!5m2!1ses!2sar"
+                        width="100%" height="250px" frameborder="0" style="border:0" allowfullscreen></iframe></p>
             </div>
             <div class="col-sm-12 col-md-6" id="detalles">
                 <h5 class="texto">Doña Pichona - Resto & bar</h5>
@@ -133,9 +163,20 @@
 
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <script>
+        $('#aviso').modal('show');
+    </script>
+
 </body>
 
 </html>
