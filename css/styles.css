@@ -153,9 +153,14 @@ ul {
 
 .modal-header .close{
     color: white;
+    margin: auto;
+    padding: 0px;
+    margin-top: 1%;
+    margin-left: 28%;
 }
 
 h5.modal-title{
+    margin: auto;
     font-size: 180%;
     margin-left: 40%;
 }
