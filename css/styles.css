@@ -160,6 +160,11 @@ h5.modal-title{
     margin-left: 40%;
 }
 
+#btn-cerrar{
+    border: 0px;
+    width: 20%;
+}
+
 @media (max-width: 800px){
     
     .modal{
