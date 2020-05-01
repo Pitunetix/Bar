@@ -156,13 +156,13 @@ h5.modal-title{
 @media (max-width: 800px){
     
     .modal{
-        width: 80%;
+        width: 90%;
         margin-top: 5%;
-        margin-left: 10%;
+        margin-left: 5%;
     }
 
     h5.modal-title{
         font-size: 180%;
-        margin-left: 20%;
+        margin-left: 35%;
     }
 }
