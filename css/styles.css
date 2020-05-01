@@ -5,13 +5,12 @@ body {
     background-position: center center;
     background-size: cover;
     background-color: black;
-    */
+    
 }
 
 .container {
     margin-left: auto;
     margin-right: auto;
-    width:
 }
 
 div {
@@ -117,7 +116,13 @@ ul {
     margin-right: auto;
 }
 
+.navbar-toggler{
+    font-size: 13px;
+}
 
+.navbar-toggler-icon{
+   width: 13px;
+}
 
 .nav-link {
     padding: 10px;
@@ -129,4 +134,40 @@ ul {
 
 .nav-link:hover{
     color: red !important;
+}
+
+/*********** POP UP **************/
+
+#aviso{
+    margin-top: -6%;
+}
+
+.modal-header{
+    height: 10%;
+    background: #672688;
+    color: white;
+    text-align: center !important;
+}
+
+.modal-header .close{
+    color: white;
+}
+
+h5.modal-title{
+    font-size: 180%;
+    margin-left: 40%;
+}
+
+@media (max-width: 800px){
+    
+    .modal{
+        width: 80%;
+        margin-top: 5%;
+        margin-left: 10%;
+    }
+
+    h5.modal-title{
+        font-size: 180%;
+        margin-left: 20%;
+    }
 }
