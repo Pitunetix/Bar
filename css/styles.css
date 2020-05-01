@@ -182,4 +182,16 @@ h5.modal-title{
         font-size: 180%;
         margin-left: 30%;
     }
+
+    #btn-cerrar{
+        border: 0px;
+        width: 38%;
+    }
+
+    .modal-header .close{
+        margin: auto;
+        padding: 0px;
+        margin-top: 2%;
+        margin-left: 18%;
+    }
 }
