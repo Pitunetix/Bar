@@ -151,6 +151,10 @@ ul {
     text-align: center !important;
 }
 
+.modal-content{
+    border-radius: 10px;
+}
+
 .modal-header .close{
     color: white;
     margin: auto;
@@ -180,7 +184,7 @@ h5.modal-title{
 
     h5.modal-title{
         font-size: 180%;
-        margin-left: 30%;
+        margin-left: 35%;
     }
 
     #btn-cerrar{
@@ -188,10 +192,4 @@ h5.modal-title{
         width: 38%;
     }
 
-    .modal-header .close{
-        margin: auto;
-        padding: 0px;
-        margin-top: 2%;
-        margin-left: 18%;
-    }
 }
